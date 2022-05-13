@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PruebaRECY2">
         <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
             android:name=".Informacion"
             android:exported="false" />
         <activity
@@ -20,7 +23,7 @@
             android:label="@string/title_activity_main2"
             android:theme="@style/Theme.PruebaRECY2.NoActionBar" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Registro"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
